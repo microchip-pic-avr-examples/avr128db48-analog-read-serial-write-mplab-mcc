@@ -1,0 +1,55 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.mplabx.project.avr128db48-analog-read-serial-write-mplab-mcc",
+        "version": " ",
+        "displayName": "AVR128DB48 analog read serial write mplab mcc",
+        "projectName": "avr128db48-analog-read-serial-write-mplab-mcc",
+        "shortDescription": "This example uses the MCC Melody Library to show how to use the Analog to Digital Converter ADC to read a signal then send it out with the Universal Synchronous and Asynchronous Receiver Transmitter USART Works with MPLABX or MPLAB XPRESS IDE",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=5.45.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.31.0"
+            }
+        ],
+        "dfp": {
+            "name": "",
+            "semverRange": ""
+        },
+        "configurator": {
+            "name": "",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "AVR128DB48",
+                "versionRange": "*"
+            }
+        },
+        "author": "Erling Holten Wiken",
+        "subcategories": [],
+        "peripherals": [],
+        "keywords": [],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
