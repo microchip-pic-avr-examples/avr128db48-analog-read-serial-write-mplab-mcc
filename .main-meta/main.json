@@ -1,10 +1,10 @@
 {
-    "metaDataVersion": "1.0.0",
+    "metaDataVersion": "1.3.0",
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-analog-read-serial-write-mplab-mcc",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "displayName": "Analog Read Serial Write",
         "projectName": "avr128db48-analog-read-serial-write-mplab-mcc",
         "shortDescription": "This example uses the MCC Melody Library to show how to use the Analog to Digital Converter (ADC) to read a signal then send it out with the Universal Synchronous and Asynchronous Receiver-Transmitter (USART). Works with MPLABX or MPLAB XPRESS IDE.",
@@ -37,10 +37,6 @@
             }
         },
         "author": "Erling Holten Wiken & Bjørnar Moe Remmen",
-        "subcategories": [
-            ["Peripherals", "USART"],
-            ["Peripherals", "ADC"]
-        ],
         "peripherals":[
             "USART", "ADC"
         ],
